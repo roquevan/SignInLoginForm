@@ -1,0 +1,7 @@
+{
+  "name": "dhms",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
