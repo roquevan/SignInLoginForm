@@ -2,13 +2,14 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>Tab 1</ion-title>
+        <ion-title>Login</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-content :fullscreen="true">
+    <ion-content :fullscreen="true" class="bg">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Tab 1</ion-title>
+          <ion-title size="large">
+          </ion-title>
         </ion-toolbar>
       </ion-header>
     
@@ -19,10 +20,16 @@
 
 <script lang="ts">
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import ExploreContainer from '@/components/ExploreContainer.vue';
+// import ExploreContainer from '@/components/ExploreContainer.vue';
 
 export default  {
   name: 'Tab1',
-  components: { ExploreContainer, IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
+    components: {
+    //ExploreContainer,
+    IonHeader,
+    IonToolbar,
+    IonContent,
+    IonPage,
+  },
 }
 </script>
